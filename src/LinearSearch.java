@@ -4,7 +4,7 @@ public class LinearSearch {
 
         for(int i=0; i<size; i++) {
             if(arr[i] == key) {
-                System.out.println("Element found at Position: "+ (i+1));
+                System.out.println("Element "+ key+ " found at Position: "+ (i+1));
                 return;
             }
         }
