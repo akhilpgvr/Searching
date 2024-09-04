@@ -20,6 +20,14 @@ public class Main {
         BinarySearch biSearch = new BinarySearch();
         biSearch.performBinarySearch(arr1,0,  arr1.length, 13);
         System.out.println("...............................");
+        System.out.println("Interpolation Search");
+        System.out.println("...............................");
+        System.out.print("Array is: ");
+        for (int i: arr1) System.out.print(i+" ");
+        System.out.println();
+        InterpolationSearch inSearch = new InterpolationSearch();
+        inSearch.performInterpolationSearch(arr1,0,  arr1.length-1, 7);
+        System.out.println("...............................");
     }
 }
 /*
@@ -35,6 +43,11 @@ Binary Search
 ...............................
 Array is: 1 2 3 6 7 8 9 11 13
 Element 13 found at Position: 9
+...............................
+Interpolation Search
+...............................
+Array is: 1 2 3 6 7 8 9 11 13
+Element 7 found at Position: 5
 ...............................
 
  */
